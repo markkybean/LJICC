@@ -66,7 +66,7 @@ export default function StickyNavbar() {
  
   return (
     <div className="pr-6 shadow-sm  max-h-[768px] w-[calc(100%+48px)] ">
-      <Navbar className="bg-black sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+      <Navbar className="bg-black top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-white"> 
         <div className="flex items-center gap-4">
             <img src={Logo} alt="Logo" className="h-10 w-auto mr-2" />
